@@ -1,5 +1,5 @@
 This is a project where a rudimentary database that is loosely based on MySQL is implemented.
-Each database table will be stored physically as a separate single file. Each database table file will be subdivided into logical sections of fixed equal size call pages. Therefore, each table file size will be exact increments of the global page_size attribute, i.e. all data files must share the same page_size attribute. The page_size for my project is 512 Bytes.
+Each database table will be stored physically as a separate single file. Each database table file will be subdivided into logical sections of fixed equal size called pages. Therefore, each table file size will be exact increments of the global page_size attribute, i.e. all data files must share the same page_size attribute. The page_size for my project is 512 Bytes.
 
 Supported Commands:
 
